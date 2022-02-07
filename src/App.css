@@ -6,3 +6,117 @@
 	overflow: hidden;
 }
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: League Spartan, Helvetica, Arial, sans-serif;
+  color: inherit;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.h1,
+h1 {
+  margin-bottom: 0.1875566421em;
+  font-size: 2.999396em;
+  line-height: 1.1253398526;
+}
+
+@media only screen and (min-width: 43.75em) {
+  .h1,
+  h1 {
+    margin-bottom: 0.132642604em;
+    font-size: 3.827145944em;
+    line-height: 1.0611408323;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .h1,
+  h1 {
+    margin-bottom: 0.0938066507em;
+    font-size: 4.9975843648em;
+    line-height: 0.9380665066;
+  }
+}
+.h2,
+h2 {
+  margin-bottom: 0.2652050919em;
+  font-size: 1.414em;
+  line-height: 1.3260254597;
+}
+@media only screen and (min-width: 43.75em) {
+  .h2,
+  h2 {
+    margin-bottom: 0.1875566421em;
+    font-size: 1.999396em;
+    line-height: 1.1253398526;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  .h2,
+  h2 {
+    margin-bottom: 0.132642604em;
+    font-size: 2.827145944em;
+    line-height: 1.0611408323;
+  }
+}
+.h3,
+h3 {
+  margin-bottom: 0.2652050919em;
+  font-size: 1.414em;
+  line-height: 1.3260254597;
+}
+@media only screen and (min-width: 56.25em) {
+  .h3,
+  h3 {
+    margin-bottom: 0.1875566421em;
+    font-size: 1.999396em;
+    line-height: 1.1253398526;
+  }
+}
+.h4,
+h4 {
+  margin-bottom: 0.2652050919em;
+  font-size: 1.414em;
+  line-height: 1.3260254597;
+}
+.h5,
+.h6,
+h5,
+h6 {
+  margin-bottom: 0.375em;
+  font-size: 1em;
+  line-height: 1.5;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media only screen and (min-width: 43.75em) {
+  p {
+    text-align: justify;
+  }
+}
+.small,
+small {
+  font-size: 0.7072135785em;
+  line-height: 1.59075;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 700;
+}
+
