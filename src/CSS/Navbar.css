@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Pontano+Sans&display=swap');
 .container {
   cursor: pointer;
   position: absolute;
@@ -61,8 +62,9 @@ nav ul li {
 nav ul li a {
   color: #fafafa;
   font-size: 2em;
+  font-family: 'Josefin Sans', sans-serif;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   opacity: 0;
   pointer-events: none;

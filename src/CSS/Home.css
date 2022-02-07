@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Pontano+Sans&display=swap');
 .name {
   font-size: 3em;
   font-weight: 800;
@@ -82,8 +82,8 @@ button {
 }
 .the-button .button-mask:before {
   width: 100%;
-  background-color: #1b2e63;
-  background: linear-gradient(270deg, #235aa6, #101b3b);
+  background-color: #00334b;
+  background: linear-gradient(270deg, #0086ac, #00334b);
   transition: -webkit-transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1) 0.05s;
   transition: transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1) 0.05s;
   transition: transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1) 0.05s,
@@ -102,8 +102,8 @@ button {
 }
 .the-button .button-mask:after {
   width: 80%;
-  background-color: #26408b;
-  background: linear-gradient(270deg, #235aa6, #213777);
+  background-color: #003f5c;
+  background: linear-gradient(270deg, #006481, #003f5c);
   transition: -webkit-transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1);
   transition: transform 0.6s cubic-bezier(0.694, 0.048, 0.335, 1),
@@ -134,8 +134,8 @@ button {
   font-size: 0.875em;
   letter-spacing: 3px;
   padding: 12px 20px;
-  background-color: #f06449;
-  background: linear-gradient(270deg, #f06449, #ef3636);
+  background-color: #008ba1;
+  background: linear-gradient(270deg, #008ba1, #10b3bc);
   color: #fff;
   position: relative;
   transition: all 0.3s;
