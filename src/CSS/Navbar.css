@@ -2,9 +2,10 @@
   cursor: pointer;
   position: absolute;
   top: 5%;
-  right: 5%;
+  right: 9%;
   width: 30px;
   height: 20px;
+  transition: all 0.5s ease;
 }
 
 .bars {
@@ -91,7 +92,7 @@ nav .close {
   height: 30px;
   position: absolute;
   top: 6%;
-  right: 5%;
+  right: 9%;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
@@ -140,7 +141,21 @@ nav .close:hover div::after {
 }
 
 .navlogo img {
-  margin: 14px 0 0 45px;
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  width: 65px;
+  height: 65px;
+}
+.navlogoBW {
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  transform: translate(-50% -50%);
+  z-index: 200;
+  opacity: 0;
+}
+.navlogoBW img {
   width: 65px;
   height: 65px;
 }

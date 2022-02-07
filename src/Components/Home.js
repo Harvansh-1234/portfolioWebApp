@@ -13,16 +13,16 @@ function Home() {
                     <h1 className='name'>Harvansh Rathore</h1>
                 </div>
             </div> */}
-            <div class="main-hero-text">
+            <div class="main-home-text">
                 <div class="content">
                     <div class="text-loading-mask">
                         <div class="text-loading-overlay"></div>
-                        <h1  class="main-hero-title .h1">Harvansh Rathore</h1>
+                        <h1  class="main-home-title .h1">Harvansh Rathore</h1>
                     </div>
                     <div>
                         <div class="text-loading-mask">
                             <div style={{transitionDelay:"0.1s"}} class="text-loading-overlay"></div>
-                            <h3 class="main-hero-subtitle h5">Interactive Front-end Developer</h3>
+                            <h3 class="main-home-subtitle h5">Interactive Front-end Developer</h3>
                         </div>
                     </div>
                     <div>
@@ -36,7 +36,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div style={{ width: "200px", height: "100px" }}>
+            <div className='homeSvg'>
                 <object data={logo1} type="image/svg+xml">svg-animation</object>
             </div>
         </div>
