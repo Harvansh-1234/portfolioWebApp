@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Pontano+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Pontano+Sans&display=swap");
 .container {
   cursor: pointer;
   position: absolute;
   top: 5%;
-  right: 9%;
+  right: 12%;
   width: 30px;
   height: 20px;
   transition: all 0.5s ease;
@@ -62,7 +62,7 @@ nav ul li {
 nav ul li a {
   color: #fafafa;
   font-size: 2em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-decoration: none;
   font-weight: 600;
   position: relative;
@@ -94,7 +94,7 @@ nav .close {
   height: 30px;
   position: absolute;
   top: 6%;
-  right: 9%;
+  right: 12%;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
@@ -132,11 +132,6 @@ nav .close:hover div::after {
   background: rgb(209, 3, 3);
 }
 
-@media (max-width: 992px) {
-  nav h1 {
-    font-size: 25px;
-  }
-}
 .NavHead {
   display: flex;
   justify-content: flex-start;
@@ -145,14 +140,14 @@ nav .close:hover div::after {
 .navlogo img {
   position: absolute;
   top: 3%;
-  left: 7%;
+  left: 10%;
   width: 65px;
   height: 65px;
 }
 .navlogoBW {
   position: absolute;
   top: 3%;
-  left: 7%;
+  left: 10%;
   transform: translate(-50% -50%);
   z-index: 200;
   opacity: 0;
@@ -160,4 +155,21 @@ nav .close:hover div::after {
 .navlogoBW img {
   width: 65px;
   height: 65px;
+}
+@media (max-width: 992px) {
+  nav h1 {
+    font-size: 25px;
+  }
+  nav .close {
+    right: 9%;
+  }
+  .container {
+    right: 9%;
+  }
+  .navlogo img {
+    left: 7%;
+  }
+  .navlogoBW {
+    left: 7%;
+  }
 }

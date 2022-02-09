@@ -238,3 +238,15 @@ strong {
 .side3{
   bottom: 29%;
 }
+@media only screen and (max-width:1000px) {
+  .sideDiv{
+    margin-left: 20px;
+  }
+
+}
+@media only screen and (max-width:404px) {
+
+  .sideDiv{
+    margin-left: 25px;
+  }
+}
