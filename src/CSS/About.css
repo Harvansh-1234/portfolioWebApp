@@ -1,0 +1,47 @@
+.AboutMain{
+    position: relative;
+    width:95%;
+    margin: 0 auto;
+}
+.AboutMain2{
+    width:80%;
+    margin: 0 auto; 
+}
+.AboutMain2 p{
+    text-align: center;
+}
+.AboutMain img{
+    position: relative;
+    margin-top: 50px;
+    left: 47%;
+    transform: translate(-50%);
+    max-width: 30%;
+    min-width: 300px;
+}
+.aboutCard1{
+    position: absolute;
+    top:20%;
+    display: inline-block;
+    text-align: center;
+}
+.aboutCard2{
+    position: absolute;
+    top:70%;
+    left: 15%;
+    display: inline-block;
+    text-align: center;
+}
+.aboutCard3{
+    position: absolute;
+    top:20%;
+    right: 10%;
+    display: inline-block;
+    text-align: center;
+}
+.aboutCard4{
+    position: absolute;
+    top:70%;
+    right: 15%;
+    display: inline-block;
+    text-align: center;
+}

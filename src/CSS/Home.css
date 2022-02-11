@@ -17,6 +17,9 @@
     transition: color 0.3s ease, opacity 0.3s ease 0.65s;
     z-index: 7;
 } */
+.home-section{
+  height: 100vh;
+}
 .content {
   width: 75%;
   margin: 0 auto;

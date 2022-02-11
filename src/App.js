@@ -6,6 +6,7 @@ import React from 'react';
 import github from './github.svg';
 import insta from './insta.svg';
 import lin from './lin.svg';
+import About from './Components/About';
 
 
 
@@ -62,6 +63,7 @@ function App() {
       </div>
       <NavBar />
       <Home />
+      <About/>
       <div class="cursor"></div>
     </div>
   );
