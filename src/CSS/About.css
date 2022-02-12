@@ -1,47 +1,106 @@
-.AboutMain{
+.AboutMain {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 100vh;
+}
+.AboutMain2 {
+  width: 80%;
+  margin: 0 auto;
+}
+.AboutMain2 p {
+  text-align: center;
+}
+.AboutMain img {
+  position: relative;
+  margin-top: 50px;
+  left: 47%;
+  transform: translate(-50%);
+  max-width: 30%;
+  min-width: 300px;
+}
+.aboutCard1 {
+  position: absolute;
+  top: 20%;
+  display: inline-block;
+  text-align: center;
+  opacity: 0.6;
+}
+.aboutCard2 {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  display: inline-block;
+  text-align: center;
+
+}
+.aboutCard3 {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  display: inline-block;
+  text-align: center;
+  opacity: 0.6;
+}
+.aboutCard4 {
+  position: absolute;
+  top: 100%;
+  right: 15%;
+  display: inline-block;
+  text-align: center;
+}
+@media only screen and (max-width: 1300px) {
+  .aboutCard4 {
+    right: 11%;
+  }
+  .aboutCard2 {
+    left: 9%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .aboutCard3,
+  .aboutCard4 {
     position: relative;
-    width:95%;
-    margin: 0 auto;
-}
-.AboutMain2{
-    width:80%;
-    margin: 0 auto; 
-}
-.AboutMain2 p{
-    text-align: center;
-}
-.AboutMain img{
+    right: 0;
+    top: 0;
+  }
+  .aboutCard1,
+  .aboutCard2 {
     position: relative;
-    margin-top: 50px;
-    left: 47%;
-    transform: translate(-50%);
-    max-width: 30%;
-    min-width: 300px;
+    left: 0;
+    top: 0;
+  }
+  .aboutCard2{
+    opacity: 0.6;
+  }
+  .aboutCard1{
+    opacity: 1;
+  }
+  .div1 {
+    display: flex;
+    justify-content: center
+  }
+  .div2 {
+    display: flex;
+    justify-content: center
+  }
+  .div {
+    display: flex;
+  }
+  .AboutMain img {
+    margin-top: 0;}
 }
-.aboutCard1{
-    position: absolute;
-    top:20%;
-    display: inline-block;
-    text-align: center;
-}
-.aboutCard2{
-    position: absolute;
-    top:70%;
-    left: 15%;
-    display: inline-block;
-    text-align: center;
-}
-.aboutCard3{
-    position: absolute;
-    top:20%;
-    right: 10%;
-    display: inline-block;
-    text-align: center;
-}
-.aboutCard4{
-    position: absolute;
-    top:70%;
-    right: 15%;
-    display: inline-block;
-    text-align: center;
+@media only screen and (max-width: 650px) {
+  .aboutCard3,
+  .aboutCard4,
+  .aboutCard1,
+  .aboutCard2 {
+    padding: 20px;
+    opacity: 1;
+    font-size: 80%;
+  }
+  .div {
+    margin-top: 100px;
+    display: block;
+  }
 }
