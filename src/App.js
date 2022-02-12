@@ -7,6 +7,7 @@ import github from './github.svg';
 import insta from './insta.svg';
 import lin from './lin.svg';
 import About from './Components/About';
+import Timeline from './Components/Timeline';
 
 
 
@@ -64,6 +65,7 @@ function App() {
       <NavBar />
       <Home />
       <About/>
+      <Timeline/>
       <div class="cursor"></div>
     </div>
   );

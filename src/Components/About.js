@@ -16,7 +16,7 @@ function About() {
       <div className='AboutMain'>
         <div className='about-side'>
           <div className='aboutSide'></div>
-          <h3>About()</h3>
+          <h3>About</h3>
         </div>
         <div className='AboutMain2'>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis provident accusantium mollitia alias consequuntur libero dolorum. Ratione error sint pariatur accusamus possimus similique quasi, consequatur quisquam facilis tenetur nulla totam.</p>

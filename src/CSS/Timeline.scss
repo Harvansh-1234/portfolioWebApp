@@ -1,0 +1,80 @@
+.containe {
+  width: 540px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: -70px;
+}
+
+
+.rightbox {
+  height: 100%;
+}
+
+
+.rb-container {
+  font-family: "PT Sans", sans-serif;
+  width: 50%;
+  margin:auto;
+  display: block;
+  position: relative;
+}
+
+.rb-container ul.rb {
+  margin: 2.5em 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  min-height: 50px;
+  border-left: 1px dashed #fff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgb(61, 63, 62);
+  border-radius: 500%;
+  background: #50d890;
+  height: 20px;
+  width: 20px;
+  transition: all 300ms ease-in-out;
+}
+
+.rb-container ul.rb li:hover::before {
+  border-color: #232931;
+  transition: all 1000ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+  color: #4bddd0;
+  position: relative;
+  width: 300px;
+  font-size: 12px;
+}
+
+.item-title {
+  color: #fff;
+}
+.item-title1 img{
+  margin-right: 10px;
+}
+.item-title1{
+  display: flex;
+  color: #b6b6b7;
+  align-items: center;
+}
+
+
+
