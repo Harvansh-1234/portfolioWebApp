@@ -8,6 +8,7 @@ import insta from './insta.svg';
 import lin from './lin.svg';
 import About from './Components/About';
 import Timeline from './Components/Timeline';
+import Skills from './Components/Skills';
 
 
 
@@ -54,7 +55,7 @@ function App() {
 
 
   return (
-    <div className="divbody" style={{ width: "100vw", overflow: "hidden" }}>
+    <div className="divbody"id='ab' style={{ width: "100vw", overflow: "hidden" }}>
       <div className='Links'>
         <div className='sideDiv' id='div1'><img src={github} alt="" /></div>
         <div className='sideDiv' id='div2'><img src={insta} alt="" /></div>
@@ -62,10 +63,14 @@ function App() {
         <div className='sideDiv sideDiv1'>+</div>
 
       </div>
+      <div>
+      <a href="#ab"><div className='sideDiv2'>|</div></a>
+      </div>
       <NavBar />
       <Home />
       <About/>
       <Timeline/>
+      <Skills/>
       <div class="cursor"></div>
     </div>
   );

@@ -13,6 +13,7 @@ export default function Timeline() {
                     <h3>Qualifications</h3>
                 </div>
             </div>
+            {/* <div ><h3 style={{position:"relative",left:"50%",transform:"translate(-50%)"}}>Education</h3></div> */}
             <div class="containe">
                 <div class="rightbox">
                     <div class="rb-container">

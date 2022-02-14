@@ -1,0 +1,29 @@
+#skill1 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.skilldiv {
+  display: inline-grid;
+  justify-items: center;
+}
+.buttonDiv{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skillMain{
+  width: 75%;
+  margin:0 auto;
+}
+.skillChart{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skillHead{
+  margin-top: 50px;
+  text-align: center;
+}
