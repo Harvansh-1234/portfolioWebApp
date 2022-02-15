@@ -10,6 +10,7 @@ function NavBar() {
 
     React.useEffect(() => {
         const open = document.querySelector('.container');
+        const badi = document.querySelector('.divbody');
         const close = document.querySelector('.close');
         var tl = gsap.timeline({ defaults: { duration: 1, ease: 'expo.inOut' } });
         open.addEventListener('click', () => {
@@ -23,10 +24,14 @@ function NavBar() {
                     .to('.navlogoBW', { opacity: 1 }, "-=1")
                     .to('nav h2', { opacity: 1 }, '-=1');
             }
+            setTimeout(() => {
+                badi.classList.add('navOpen');}, 1500);
         });
     
         close.addEventListener('click', () => {
             tl.reverse();
+            setTimeout(() => {
+            badi.classList.remove('navOpen');}, 1500);
         });
     });
     

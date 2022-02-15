@@ -1,8 +1,7 @@
-
+import React,{useEffect,useRef} from 'react';
 import './App.css';
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
-import React from 'react';
 import github from './github.svg';
 import insta from './insta.svg';
 import lin from './lin.svg';
@@ -12,9 +11,11 @@ import Skills from './Components/Skills';
 
 
 
-function App() {
-  React.useEffect(() => {
 
+function App() {
+
+
+  useEffect(() => {
     const cursor = document.querySelector('.cursor');
     const sideDiv1 = document.querySelector('.sideDiv1');
     const div1 = document.querySelector('#div1');
@@ -32,7 +33,7 @@ function App() {
       }, 500)
     })
     sideDiv1.addEventListener('click', () => {
-      if (sideDiv1.classList.value!=='sideDiv sideDiv1 sideDiv1Rotate') {
+      if (sideDiv1.classList.value !== 'sideDiv sideDiv1 sideDiv1Rotate') {
         sideDiv1.classList.add("sideDiv1Rotate");
         div3.classList.add("side3");
         setTimeout(() => {
@@ -42,20 +43,27 @@ function App() {
           div1.classList.add("side1");
         }, 700)
       }
-      else{
+      else {
         sideDiv1.classList.remove("sideDiv1Rotate");
         div3.classList.remove("side3");
-          div2.classList.remove("side2");
-          div1.classList.remove("side1");
+        div2.classList.remove("side2");
+        div1.classList.remove("side1");
       }
 
     })
+      window.addEventListener('scroll', () => {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          document.getElementById('sideDiv2').classList.add("rotate1");
+       } else {
+        document.getElementById('sideDiv2').classList.remove("rotate1");
+       }
+      });
 
   });
 
 
   return (
-    <div className="divbody"id='ab' style={{ width: "100vw", overflow: "hidden" }}>
+    <div className="divbody" id='ab' style={{ width: "100vw", overflow: "hidden" }} >
       <div className='Links'>
         <div className='sideDiv' id='div1'><img src={github} alt="" /></div>
         <div className='sideDiv' id='div2'><img src={insta} alt="" /></div>
@@ -64,13 +72,13 @@ function App() {
 
       </div>
       <div>
-      <a href="#ab"><div className='sideDiv2'>|</div></a>
+        <a href="#ab"><div  className='sideDiv2'><span id='sideDiv2'>&darr;</span></div></a>
       </div>
       <NavBar />
       <Home />
-      <About/>
-      <Timeline/>
-      <Skills/>
+      <About />
+      <Timeline />
+      <Skills />
       <div class="cursor"></div>
     </div>
   );
