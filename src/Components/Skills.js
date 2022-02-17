@@ -17,43 +17,6 @@ function Skills() {
       </div>
       <div className='skillMain'>
         <div className='buttonDiv'>
-          {/* <div style={{ border: "0.5px solid black" }}>
-            <div class="text-loading-mask" onClick={() => {
-              setDev(true);
-              setCode(false);
-              console.log("third")
-            }}>
-              <div style={{ transitionDelay: "0.1s" }} class="text-loading-overlay"></div><a
-                class="the-button call-to-button no-smoothstate open-contact"><span
-                  class="button-text">I</span>
-                <div class="button-mask"></div>
-              </a>
-            </div>
-          </div>
-          <div style={{ border: "0.5px solid black" }}>
-            <div class="text-loading-mask" onClick={() => {
-              setDev(false);
-              setCode(true);
-              console.log("second")
-            }}>
-              <div style={{ transitionDelay: "0.1s" }} class="text-loading-overlay"></div><a
-                class="the-button call-to-button no-smoothstate open-contact"><span
-                  class="button-text">I</span>
-                <div class="button-mask"></div>
-              </a>
-            </div>
-          </div>
-          <div style={{ border: "0.5px solid black" }}>
-            <div class="text-loading-mask" onClick={() => {
-              setDev(false);
-              setCode(false);
-              console.log("first")
-            }}>
-              <div style={{ transitionDelay: "0.1s" }} class="text-loading-overlay"></div>
-              <input type="radio" />
-            </div> 
-          </div>*/}
-
           <label for="f-option" class="l-radio">
             <input type="radio" id="f-option" name="selector" tabindex="1" checked={dev} onClick={() => {
               setDev(true);

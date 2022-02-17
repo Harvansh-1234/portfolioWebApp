@@ -50,7 +50,7 @@ let data = [
     {
         tag:'gph',
         name:'Adobe XD',
-        percentage:50,
+        percentage:80,
         color:['#FF0099', '#493240' ],
     },
 ];

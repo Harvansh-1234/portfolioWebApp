@@ -8,6 +8,8 @@ import lin from './lin.svg';
 import About from './Components/About';
 import Timeline from './Components/Timeline';
 import Skills from './Components/Skills';
+import Projects from './Components/Projects';
+import ContactForm from './Components/ContactForm';
 
 
 
@@ -63,7 +65,7 @@ function App() {
 
 
   return (
-    <div className="divbody" id='ab' style={{ width: "100vw", overflow: "hidden" }} >
+    <div className="divbody" id='home' style={{ width: "100vw", overflow: "hidden" }} >
       <div className='Links'>
         <div className='sideDiv' id='div1'><img src={github} alt="" /></div>
         <div className='sideDiv' id='div2'><img src={insta} alt="" /></div>
@@ -72,13 +74,15 @@ function App() {
 
       </div>
       <div>
-        <a href="#ab"><div  className='sideDiv2'><span id='sideDiv2'><span>&#x2770;</span></span></div></a>
+        <a href="#home"><div  className='sideDiv2'><span id='sideDiv2'><span>&#x2770;</span></span></div></a>
       </div>
       <NavBar />
       <Home />
       <About />
       <Timeline />
       <Skills />
+      <Projects/>
+      {/* <ContactForm/> */}
       <div class="cursor"></div>
     </div>
   );
