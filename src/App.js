@@ -72,7 +72,7 @@ function App() {
 
       </div>
       <div>
-        <a href="#ab"><div  className='sideDiv2'><span id='sideDiv2'>&darr;</span></div></a>
+        <a href="#ab"><div  className='sideDiv2'><span id='sideDiv2'><span>&#x2770;</span></span></div></a>
       </div>
       <NavBar />
       <Home />

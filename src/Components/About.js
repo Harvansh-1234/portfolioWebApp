@@ -19,7 +19,7 @@ function About() {
           <h3>About</h3>
         </div>
         <div className='AboutMain2'>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis provident accusantium mollitia alias consequuntur libero dolorum. Ratione error sint pariatur accusamus possimus similique quasi, consequatur quisquam facilis tenetur nulla totam.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis provident accusantium mollitia alias consequuntur libero dolorum. Ratione error sint pariatur accusamus possimus similique quasi, consequatur quisquam facilis tenetur nulla totam<span style={{fontSize:"4em",lineHeight:"1px"}}>.</span></p>
         </div>
         <div><img src={aboutImg} alt="" /></div>
         <div className='AboutMain2'>
@@ -31,7 +31,7 @@ function About() {
               data-rellax-mobile-speed="1"
                 data-rellax-tablet-speed="2"
                 data-rellax-desktop-speed="-1">
-                <div><h2>01+</h2></div>
+                <div><h2>01<span>+</span></h2></div>
                 <div><h5>Years
                   experience</h5></div>
               </div>
@@ -41,7 +41,7 @@ function About() {
               data-rellax-mobile-speed="1"
               data-rellax-tablet-speed="0.3"
               data-rellax-desktop-speed="2">
-                <div><h2>01+</h2></div>
+                <div><h2>01<span>+</span></h2></div>
                 <div><h5>Companies
                   worked</h5></div>
               </div>
@@ -52,14 +52,14 @@ function About() {
               data-rellax-xs-speed="1"
               data-rellax-mobile-speed="1"
               data-rellax-tablet-speed="0.3">
-                <div><h2>05+</h2></div>
+                <div><h2>05<span>+</span></h2></div>
                 <div><h5>Completed
                   projects</h5></div>
               </div>
               <div className='aboutCard4 rellax' data-rellax-speed="2"
             data-rellax-xs-speed="1"
               data-rellax-mobile-speed="1">
-                <div><h2>01+</h2></div>
+                <div><h2>01<span>+</span></h2></div>
                 <div><h5>Years
                   experience</h5></div>
               </div>

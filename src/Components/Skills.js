@@ -17,7 +17,7 @@ function Skills() {
       </div>
       <div className='skillMain'>
         <div className='buttonDiv'>
-          <div style={{ border: "0.5px solid black" }}>
+          {/* <div style={{ border: "0.5px solid black" }}>
             <div class="text-loading-mask" onClick={() => {
               setDev(true);
               setCode(false);
@@ -49,15 +49,35 @@ function Skills() {
               setCode(false);
               console.log("first")
             }}>
-              <div style={{ transitionDelay: "0.1s" }} class="text-loading-overlay"></div><a
-                class="the-button call-to-button no-smoothstate open-contact"><span
-                  class="button-text">I</span>
-                <div class="button-mask"></div>
-              </a>
-            </div>
-          </div>
+              <div style={{ transitionDelay: "0.1s" }} class="text-loading-overlay"></div>
+              <input type="radio" />
+            </div> 
+          </div>*/}
+
+          <label for="f-option" class="l-radio">
+            <input type="radio" id="f-option" name="selector" tabindex="1" checked={dev} onClick={() => {
+              setDev(true);
+              setCode(false);
+              console.log("third")
+            }}/>
+          </label>
+          <label for="s-option" class="l-radio">
+            <input type="radio" id="s-option" name="selector" tabindex="2" onClick={() => {
+              setDev(false);
+              setCode(true);
+              console.log("second")
+            }}/>
+
+          </label>
+          <label for="t-option" class="l-radio">
+            <input type="radio" id="t-option" name="selector" tabindex="3" onClick={() => {
+              setDev(false);
+              setCode(false);
+              console.log("first")
+            }}/>
+          </label>
         </div>
-        {dev ? <h4 className='skillHead'>Web Development</h4> : code ?<h4 className='skillHead'>Programming</h4>: <h4 className='skillHead'>Designing</h4> }
+        {dev ? <h4 className='skillHead'>Web Development</h4> : code ? <h4 className='skillHead'>Programming</h4> : <h4 className='skillHead'>UI/UX</h4>}
         <div className='skillChart'>
           {dev ? data.map((item) => (
             item.tag == 'dev' ?

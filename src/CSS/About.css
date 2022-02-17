@@ -8,6 +8,9 @@
   width: 80%;
   margin: 0 auto;
 }
+.AboutMain2 span{
+  color: #34d9b0;
+}
 .AboutMain2 p {
   text-align: center;
 }
