@@ -8,7 +8,7 @@ function Footer() {
                 <div class="top_header">
                     <section>
                         <span><i class="fa fa-map-marker"></i></span>
-                        <span>Street, full address, state/province, country, pincode</span>
+                        <span>MR4 Road New Adarsh Colony, Jabalpur(M.P), India, 482002</span>
                     </section>
                     <section>
                         <span><i class="fa fa-phone"></i></span>
