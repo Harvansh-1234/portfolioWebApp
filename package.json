@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "classnames": "^2.2.6",
-    "firebase": "^8.10.0",
+    "firebase": "^8.10.1",
     "gsap": "^3.9.1",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
