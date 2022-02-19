@@ -12,11 +12,11 @@ function Footer() {
                     </section>
                     <section>
                         <span><i class="fa fa-phone"></i></span>
-                        <span>(00) 0000 0000</span>
+                        <span>+91 8959180147</span>
                     </section>
                     <section>
                         <span><i class="fa fa-envelope"></i></span>
-                        <span>info@websitename.com</span>
+                        <span>harvanshrathore20@gmail.com</span>
                     </section>
                 </div>
                 <span class="border-shape"></span>
