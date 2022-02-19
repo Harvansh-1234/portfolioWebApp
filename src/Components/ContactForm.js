@@ -221,6 +221,7 @@
 // }
 
 // export default ContactForm;
+import { LottiePlayer } from "lottie-react";
 import React, { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -286,7 +287,7 @@ function ContactForm() {
                     <span>CONTACT</span>
                     <span>US</span>
                   </div>
-                  <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+                  <div class="app-contact">CONTACT INFO : +91 8959180147</div>
                 </div>
                 <div class="screen-body-item">
                   <div class="app-form">
@@ -314,7 +315,7 @@ function ContactForm() {
             </div>
           </div>
         </div>
-
+        {/* https://assets1.lottiefiles.com/packages/lf20_hqrpwcwb.json */}
       </div>
     </>
   )
