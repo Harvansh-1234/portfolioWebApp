@@ -10,6 +10,7 @@ import Timeline from './Components/Timeline';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import ContactForm from './Components/ContactForm';
+import Footer from './Components/Footer';
 
 
 
@@ -82,7 +83,8 @@ function App() {
       <Timeline />
       <Skills />
       <Projects/>
-      {/* <ContactForm/> */}
+       <ContactForm/>
+       <Footer/>
       <div class="cursor"></div>
     </div>
   );

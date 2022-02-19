@@ -18,11 +18,13 @@
     "react-dom": "^16.14.0",
     "react-ga": "^2.7.0",
     "react-gradient-progress": "^1.0.3",
+    "react-icons": "^4.3.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
     "react-toastify": "^8.2.0",
     "reactstrap": "^9.0.1",
     "rellax": "^1.12.1",
+    "styled-components": "^5.3.3",
     "swiper": "^6.8.4"
   },
   "repository": {
