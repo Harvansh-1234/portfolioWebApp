@@ -19,7 +19,7 @@ function About() {
           <h3>About</h3>
         </div>
         <div className='AboutMain2'>
-          <p>Web developer ,with extensive knowledge and working in web technologies and delivering quality work<span style={{fontSize:"4em",lineHeight:"1px"}}>.</span></p>
+          <p>Web developer ,with extensive knowledge and working in web technologies and delivering quality <br/>work<span style={{fontSize:"4em",lineHeight:"1px"}}>.</span></p>
         </div>
         <div><img src={aboutImg} alt="" /></div>
         <div className='AboutMain2'>
