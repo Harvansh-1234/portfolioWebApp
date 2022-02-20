@@ -19,7 +19,7 @@ function About() {
           <h3>About</h3>
         </div>
         <div className='AboutMain2'>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis provident accusantium mollitia alias consequuntur libero dolorum. Ratione error sint pariatur accusamus possimus similique quasi, consequatur quisquam facilis tenetur nulla totam<span style={{fontSize:"4em",lineHeight:"1px"}}>.</span></p>
+          <p>Web developer ,with extensive knowledge and working in web technologies and delivering quality work<span style={{fontSize:"4em",lineHeight:"1px"}}>.</span></p>
         </div>
         <div><img src={aboutImg} alt="" /></div>
         <div className='AboutMain2'>
@@ -59,9 +59,8 @@ function About() {
               <div className='aboutCard4 rellax' data-rellax-speed="2"
             data-rellax-xs-speed="1"
               data-rellax-mobile-speed="1">
-                <div><h2>01<span>+</span></h2></div>
-                <div><h5>Years
-                  experience</h5></div>
+                <div><h2>50<span>+</span></h2></div>
+                <div><h5>Questions Solved</h5></div>
               </div>
             </div>
 

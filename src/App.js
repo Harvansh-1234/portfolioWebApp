@@ -1,4 +1,4 @@
-import React,{useEffect,useRef} from 'react';
+import React,{useEffect,useState} from 'react';
 import './App.css';
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
@@ -8,17 +8,22 @@ import lin from './lin.svg';
 import About from './Components/About';
 import Timeline from './Components/Timeline';
 import Skills from './Components/Skills';
-import Projects from './Components/Projects';
+// import Projects from './Components/Projects';
 import ContactForm from './Components/ContactForm';
 import Footer from './Components/Footer';
+import Loader from './Components/Loader';
+
 
 
 
 
 function App() {
-
+const [loader, setloader] = useState(true)
 
   useEffect(() => {
+
+
+if(!loader){
     const cursor = document.querySelector('.cursor');
     const sideDiv1 = document.querySelector('.sideDiv1');
     const div1 = document.querySelector('#div1');
@@ -62,31 +67,48 @@ function App() {
        }
       });
 
+  }
+  setloader(false);
   });
 
 
   return (
-    <div className="divbody" id='home' style={{ width: "100vw", overflow: "hidden" }} >
+    <>
+    {loader ? <Loader /> :<div className="divbody" id='home' style={{ width: "100vw", overflow: "hidden" }} >
       <div className='Links'>
-        <div className='sideDiv' id='div1'><img src={github} alt="" /></div>
-        <div className='sideDiv' id='div2'><img src={insta} alt="" /></div>
-        <div className='sideDiv' id='div3'><img src={lin} alt="" /></div>
+        <div className='sideDiv' id='div1'><a href='https://github.com/Harvansh-1234' target={'_blank'}><img src={github} alt="" /></a></div>
+        <div className='sideDiv' id='div2'><a href='https://www.instagram.com/harvansh_rathore25/' target={'_blank'}><img src={insta} alt="" /></a></div>
+        <div className='sideDiv' id='div3'><a href='https://www.linkedin.com/in/harvansh-s-rathore-225b1620a/' target={'_blank'}><img src={lin} alt="" /></a></div>
         <div className='sideDiv sideDiv1'>+</div>
 
       </div>
       <div>
         <a href="#home"><div  className='sideDiv2'><span id='sideDiv2'><span>&#x2770;</span></span></div></a>
       </div>
+         
       <NavBar />
-      <Home />
+      <section id='home'>
+        <Home />
+      </section>
+      <section id='about'>
       <About />
+      </section>
+      <section id='timeline'>
       <Timeline />
+      </section>
+      <section id='skills'>
       <Skills />
+      </section>
+      {/* <section id='projects'>
       <Projects/>
+      </section> */}
+      <section id='contact'>
        <ContactForm/>
+      </section>
        <Footer/>
       <div class="cursor"></div>
     </div>
+    }</>
   );
 }
 

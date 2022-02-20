@@ -306,7 +306,13 @@ function ContactForm() {
                       <input text='text' name="message" class="app-form-control" onChange={handleInputChange} placeholder="MESSAGE" />
                     </div>
                     <div class="app-form-group buttons">
-                      <button type='submit' class="app-form-button">SEND</button>
+                    <div style={{width:"175px"}} class="text-loading-mask">
+                            <div style={{transitionDelay:"0.1s"}} class="text-loading-overlay"></div><a type="submit"
+                                class="the-button call-to-button no-smoothstate open-contact"><span
+                                    class="button-text"><button type="submit">Send</button></span>
+                                <div class="button-mask"></div>
+                            </a>
+                        </div>
                     </div>
                     </form>
                   </div>

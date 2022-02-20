@@ -22,12 +22,12 @@ function Home() {
                     <div>
                         <div class="text-loading-mask">
                             <div style={{transitionDelay:"0.1s"}} class="text-loading-overlay"></div>
-                            <h3 class="main-home-subtitle h5">Interactive Front-end Developer</h3>
+                            <h3 class="main-home-subtitle h5">Full-Stack Developer</h3>
                         </div>
                     </div>
                     <div>
                         <div style={{width:"175px"}} class="text-loading-mask">
-                            <div style={{transitionDelay:"0.1s"}} class="text-loading-overlay"></div><a href="/"
+                            <div style={{transitionDelay:"0.1s"}} class="text-loading-overlay"></div><a href="#about"
                                 class="the-button call-to-button no-smoothstate open-contact"><span
                                     class="button-text">About Me</span>
                                 <div class="button-mask"></div>

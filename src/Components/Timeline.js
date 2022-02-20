@@ -28,19 +28,19 @@ export default function Timeline() {
                             </li>
                             <li class="rb-item" ng-repeat="itembx">
                                 <div class="timestamp">
-                                <h4>Higher Secondary School</h4>
+                                <h4>Intermediate</h4>
                                 </div>
-                                <div class="item-title"><h5>University Institute of Technology, RGPV Bhopal</h5></div>
-                                <div class="item-title1"><img src={cal} alt="" width={'20px'} /> 2020 - 2024</div>
+                                <div class="item-title"><h5>Noble Children Academy</h5></div>
+                                <div class="item-title1"><img src={cal} alt="" width={'20px'} /> 2019 - 2020</div>
 
                             </li>
 
                             <li class="rb-item" ng-repeat="itembx">
                                 <div class="timestamp">
-                                <h4>Secondary School Certificate</h4>
+                                <h4>High School</h4>
                                 </div>
-                                <div class="item-title"><h5>University Institute of Technology, RGPV Bhopal</h5></div>
-                                <div class="item-title1"><img src={cal} alt="" width={'20px'} /> 2020 - 2024</div>
+                                <div class="item-title"><h5>Ashoka Hall Senior Secondary School</h5></div>
+                                <div class="item-title1"><img src={cal} alt="" width={'20px'} /> 2018 - 2019</div>
 
                             </li>
 

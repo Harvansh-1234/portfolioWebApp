@@ -1,0 +1,52 @@
+
+#loader {
+    height: 50px;
+    width:50px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+  }
+  
+  #corners {
+    fill: none;
+    stroke-width: 7;
+    stroke: #4bddd0;
+    stroke-dasharray: 25;
+    animation: dash infinite 1.5s ease;
+    -webkit-animation: dash infinite 1.5s ease;
+  }
+  
+  #L {
+    fill: none;
+    stroke: white;
+    stroke-width: 4;
+    stroke-dasharray: 50;
+    animation: L 1.5s infinite ease;
+    -webkit-animation: L infinite 1.5s ease;
+  }
+  
+  @keyframes dash {
+    100% {
+      stroke-dashoffset: -50;
+    }
+  }
+  
+  @keyframes L {
+    100% {
+      stroke-dashoffset: 100;
+    }
+  }
+  .loaderLogo{
+      animation: loaderlogo 1s infinite ease alternate-reverse;
+  }
+  @keyframes loaderlogo {
+    0% {
+      width: 35px;
+    }
+    100% {
+      width: 25px;
+    }
+  }
