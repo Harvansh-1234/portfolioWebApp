@@ -9,6 +9,7 @@ function About() {
     var rellax = new Rellax('.rellax', {
       breakpoints: [576, 650, 960]
     });
+    console.log(rellax);
   })
 
   return (

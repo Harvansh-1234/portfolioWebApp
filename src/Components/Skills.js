@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "../CSS/Skills.scss";
 import { CircleProgress } from 'react-gradient-progress'
-import logoBW from '../logoBW.svg';
 import data from '../data/skills'
 function Skills() {
   const [dev, setDev] = useState(true);
@@ -43,7 +42,7 @@ function Skills() {
         {dev ? <h4 className='skillHead'>Web Development</h4> : code ? <h4 className='skillHead'>Programming</h4> : <h4 className='skillHead'>UI/UX</h4>}
         <div className='skillChart'>
           {dev ? data.map((item) => (
-            item.tag == 'dev' ?
+            item.tag === 'dev' ?
               <div className='skilldiv'>
                 <CircleProgress percentage={item.percentage} strokeWidth={6} primaryColor={item.color} secondaryColor="#003f5c" />
                 <div>
@@ -52,7 +51,7 @@ function Skills() {
                 </div>
               </div>
               : null)) : code ? data.map((item) => (
-                item.tag == 'code' ?
+                item.tag === 'code' ?
                   <div className='skilldiv'>
                     <CircleProgress percentage={item.percentage} strokeWidth={6} primaryColor={item.color} secondaryColor="#003f5c" />
                     <div>
@@ -61,7 +60,7 @@ function Skills() {
                     </div>
                   </div>
                   : null)) : data.map((item) => (
-                    item.tag == 'gph' ?
+                    item.tag === 'gph' ?
                       <div className='skilldiv'>
                         <CircleProgress percentage={item.percentage} strokeWidth={6} primaryColor={item.color} secondaryColor="#003f5c" />
                         <div>

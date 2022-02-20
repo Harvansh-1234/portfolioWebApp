@@ -68,17 +68,20 @@ if(!loader){
       });
 
   }
-  setloader(false);
   });
+  useEffect(() => {
+    setloader(false);
+  }, [])
+  
 
 
   return (
     <>
     {loader ? <Loader /> :<div className="divbody" id='home' style={{ width: "100vw", overflow: "hidden" }} >
       <div className='Links'>
-        <div className='sideDiv' id='div1'><a href='https://github.com/Harvansh-1234' target={'_blank'}><img src={github} alt="" /></a></div>
-        <div className='sideDiv' id='div2'><a href='https://www.instagram.com/harvansh_rathore25/' target={'_blank'}><img src={insta} alt="" /></a></div>
-        <div className='sideDiv' id='div3'><a href='https://www.linkedin.com/in/harvansh-s-rathore-225b1620a/' target={'_blank'}><img src={lin} alt="" /></a></div>
+        <div className='sideDiv' id='div1'><a href='https://github.com/Harvansh-1234'><img src={github} alt="" /></a></div>
+        <div className='sideDiv' id='div2'><a href='https://www.instagram.com/harvansh_rathore25/'><img src={insta} alt="" /></a></div>
+        <div className='sideDiv' id='div3'><a href='https://www.linkedin.com/in/harvansh-s-rathore-225b1620a/'><img src={lin} alt="" /></a></div>
         <div className='sideDiv sideDiv1'>+</div>
 
       </div>

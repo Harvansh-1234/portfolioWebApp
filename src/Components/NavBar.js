@@ -12,7 +12,6 @@ function NavBar() {
         const open = document.querySelector('.container');
         const badi = document.querySelector('.divbody');
         const close = document.querySelector('.close');
-        const openContact = document.querySelector('#contact');
         var tl = gsap.timeline({ defaults: { duration: 1, ease: 'expo.inOut' } });
         open.addEventListener('click', () => {
             if (tl.reversed()) {
